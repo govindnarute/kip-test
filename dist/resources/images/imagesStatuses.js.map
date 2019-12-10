@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/resources/images/imagesStatuses.js"],"names":["ImageStatus","Pending","Loaded"],"mappings":";;;;;AAAA;;;AAGO,MAAMA,oCAAc;AACvBC,WAAS,CADc;AAEvBC,UAAQ;AAFe,CAApB","file":"imagesStatuses.js","sourcesContent":["/**\n * @enum\n */\nexport const ImageStatus = {\n    Pending: 1,\n    Loaded: 2\n};\n"]}

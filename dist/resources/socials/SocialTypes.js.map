@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/resources/socials/SocialTypes.js"],"names":["socialTypes","linkedIn"],"mappings":";;;;;AAAA;;;AAGO,MAAMA,oCAAc;AACvBC,YAAU;AADa,CAApB","file":"SocialTypes.js","sourcesContent":["/**\n * @type {{linkedIn: number}}\n */\nexport const socialTypes = {\n    linkedIn: 1\n};\n"]}

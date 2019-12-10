@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/schemas/EmptySchema.js"],"names":["EmptySchema","AppSchema"],"mappings":";;;;;;AAAA;;AAEe,MAAMA,WAAN,SAA0BC,oBAA1B,CAAoC;kBAA9BD,W","file":"EmptySchema.js","sourcesContent":["import { AppSchema } from '../utils/validation/AppSchema';\n\nexport default class EmptySchema extends AppSchema {}\n"]}

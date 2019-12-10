@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/resources/users/UsersOrderFields.js"],"names":["UsersOrderFields"],"mappings":";;;;;AAAA;;;AAGO,MAAMA,8CAAmB,CAC5B,WAD4B,EAE5B,UAF4B,EAG5B,WAH4B,CAAzB","file":"UsersOrderFields.js","sourcesContent":["/**\n * @enum\n */\nexport const UsersOrderFields = [\n    'firstName',\n    'lastName',\n    'createdAt'\n];\n"]}

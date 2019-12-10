@@ -1,0 +1,55 @@
+{
+  "production": false,
+  "server": {
+    "timeOut": 30000,
+    "port": 3001
+  },
+  "client": {
+    "url": "market.dev.cleveroad.com"
+  },
+  "logging": {
+    "level": "debug"
+  },
+  "dev": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "database_dev",
+    "username": "root",
+    "password": "!123qweAs",
+    "charset": "utf8mb4",
+    "dialect": "mysql",
+    "connectionRetryCount": 5,
+    "maxConnections": 10,
+    "delayBeforeReconnect": 3000,
+    "showErrors": true,
+    "logging": true,
+    "label": "Database"
+  },
+  "redis": {
+    "prefix": "prefix_",
+    "host": "127.0.0.1",
+    "port": "6379"
+  },
+  "mailer": {
+    "apiKey": "api-key-string",
+    "from": "info@info.co",
+    "tokenLifeTime": 259200
+  },
+  "jwt": {
+    "key": "JWT_SIGN_KEY",
+    "lifeTime": 84600
+  },
+  "s3": {
+    "accessKey": "accessKey",
+    "secret": "secret",
+    "bucket": "bucket",
+    "region": "region",
+    "domain": "https://s3.eu-central-1.amazonaws.com",
+    "imagePrefix": "kip101_image_"
+  },
+  "linkedIn": {
+    "clientId": "clientId",
+    "secret": "secret",
+    "grantType": "authorization_code"
+  }
+}

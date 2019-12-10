@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/resources/sessions/SessionType.js"],"names":["SessionType","User","Admin"],"mappings":";;;;;AAAA;;;AAGO,MAAMA,oCAAc;AACvBC,QAAM,MADiB;AAEvBC,SAAO;AAFgB,CAApB","file":"SessionType.js","sourcesContent":["/**\n * @enum {string}\n */\nexport const SessionType = {\n    User: 'USER',\n    Admin: 'ADMIN'\n};\n"]}

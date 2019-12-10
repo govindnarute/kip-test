@@ -1,0 +1,55 @@
+{
+  "production": false,
+  "server": {
+    "timeOut": 30000,
+    "port": 3001
+  },
+  "client": {
+    "url": "https://dev.kip101.com"
+  },
+  "logging": {
+    "level": "debug"
+  },
+  "dev": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "database_dev",
+    "username": "root",
+    "password": "!123qweAs",
+    "charset": "utf8mb4",
+    "dialect": "mysql",
+    "connectionRetryCount": 5,
+    "maxConnections": 10,
+    "delayBeforeReconnect": 3000,
+    "showErrors": true,
+    "logging": true,
+    "label": "Database"
+  },
+  "redis": {
+    "prefix": "kit101_dev",
+    "host": "127.0.0.1",
+    "port": "6379"
+  },
+  "mailer": {
+    "apiKey": "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",
+    "from": "info@kip101.co",
+    "tokenLifeTime": 259200
+  },
+  "jwt": {
+    "key": "KIP101_SIGN_KEY",
+    "lifeTime": 84600
+  },
+  "s3": {
+    "accessKey": "AKIA3YCVYOEXEJS6UMZS",
+    "secret": "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",
+    "bucket": "kip101dev",
+    "region": "us-east-2",
+    "domain": "https://s3.us-east-2.amazonaws.com",
+    "imagePrefix": "kip101_image_"
+  },
+  "linkedIn": {
+    "clientId": "78umz650vzsdp8",
+    "secret": "ugy65HTYyh0ugESL",
+    "grantType": "authorization_code"
+  }
+}
